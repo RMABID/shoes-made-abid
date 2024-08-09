@@ -229,6 +229,7 @@ header{
     }
     .bannner-section-container{
         flex-direction: column;
+       padding-bottom: 33rem;
     }
     .woman-jacket-card{
         grid-template-columns: repeat(1, 1fr);
@@ -257,5 +258,10 @@ header{
         margin: auto;
         line-height: 28px;
         text-align: center;
+    }
+
+    #banner_image{
+        position: absolute;
+        margin-top: 27rem;
     }
 }
